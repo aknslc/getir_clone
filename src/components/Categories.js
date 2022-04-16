@@ -13,7 +13,7 @@ export default function Categories() {
 
             return (
 
-              <div className='category-item transition-colors hover:bg-purple-50 p-3 cursor-pointer'>
+              <div className='category-item transition-colors hover:bg-purple-50 p-3 cursor-pointer ' key={category.id}>
                 <div className='flex flex-col items-center'>
                   <img className='w-12 mb-2' src={category.image} alt="category_image" />
                   <h4 className='text-sm text-gray-700 font-semibold'>{category.title}</h4>

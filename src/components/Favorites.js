@@ -12,7 +12,7 @@ export default function Favorites() {
 
           return (
 
-            <div className='favori-item bg-[#FFFFFF] p-2 border-y-2 border-r-2 border-gray-50 cursor-pointer'>
+            <div className='favori-item bg-[#FFFFFF] p-2 border-y-2 border-r-2 border-gray-50 cursor-pointer' key={product.id}>
               <div className='flex flex-col items-center relative'>
                 
                 <div className='product-icon absolute top-0 right-0'>
